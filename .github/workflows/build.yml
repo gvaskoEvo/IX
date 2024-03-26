@@ -41,7 +41,7 @@ jobs:
       - uses: ./.github/workflows/actions/build-cache
       - uses: ./.github/workflows/actions/build
       - name: Upload docs
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: packages/webdocs/build
           if-no-files-found: error
